@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Web App</title>
+</head>
+<body>
+    <h1>Alarm Web App</h1>
+    <form action="/set_alarm" method="post">
+        <label for="alarm_time">Set Alarm Time (HH:MM:SS):</label>
+        <input type="text" id="alarm_time" name="alarm_time" required>
+        <br>
+        <label for="coding_problem">Coding Problem:</label>
+        <textarea id="coding_problem" name="coding_problem" rows="4" cols="50" required></textarea>
+        <br>
+        <button type="submit">Set Alarm</button>
+    </form>
+</body>
+</html>
